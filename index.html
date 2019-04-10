@@ -12,29 +12,48 @@
   </head>
   <body>
     <!--Viewable stuff: text, links, images, media-->
-    <h1>Welcome to Exceptional Realty Group</h1>
-    <!--Don't need to worry about p here-->
-    <h2>Located in Sacramento, California</h2>
 
-    <div class="links">
+    <header>
+      <section id="logo">
+        <div class="wrapper">
+          <h1>Welcome to Exceptional Realty Group</h1>
+          <!--Don't need to worry about p here-->
+          <h2>Located in Sacramento, California</h2>
+      </div><!--wraper-->
+      </section>
+  </header>
+
+    <section id="links">
       <a href="index.html">About</a> ||
       <a href="contact.html">Contact</a> ||
       <a href="market-report.html">Market Report</a> ||
       <a href="new-properties.html">New Properties</a> ||
       <a href="real-estate-listings.html">Real Estate Listings</a> ||
       <a href="http://hud.gov" target="_blank">Housing & Urban Development Site </a>
-    </div>
+    </section>
 
     <!--foldername/ = go inside the folder.
     filename = use a file in the current directory
     ../ leave the current folder and go up to the parent
     target="_blank" leads you to a new tab
     -->
-    <img src="images/intro-pic.jpg" title="Welcome to Exceptional"
-    alt ="The awkwardest living room ever.">
-    <p>Stupid.</p>
-    <video controls>
-      <source src="videos/real-estate.mp4" type="video/mp4">
-    </video>
+
+    <div class="wrapper">
+      <section id="news">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+      <section id="contact">
+      </section>
+
+      <section id="promotional">
+          <img src="images/intro-pic.jpg" title="Welcome to Exceptional"
+        alt ="The awkwardest living room ever.">
+        <p>Stupid.</p>
+        <video controls>
+          <source src="videos/real-estate.mp4" type="video/mp4">
+        </video>
+      </section>
+    </div>
+
   </body>
 </html>
